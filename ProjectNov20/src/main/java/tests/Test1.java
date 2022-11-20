@@ -1,13 +1,12 @@
 package tests;
 
+import org.testng.annotations.Test;
+
 public class Test1 {
 
-	public static void main(String[] args) {
-
-		Test1 t = new Test1();
-		Class s = t.getClass();
-		System.out.println(s);
-		
-
+	@Test
+	public void m1() {
+		System.out.println("m1 test");	
 	}
+
 }
