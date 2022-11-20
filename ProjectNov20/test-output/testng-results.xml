@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37" started-at="2022-11-20T10:02:59 IST" finished-at="2022-11-20T10:02:59 IST">
+  <suite name="Default suite" duration-ms="39" started-at="2022-11-20T10:31:39 IST" finished-at="2022-11-20T10:31:39 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37" started-at="2022-11-20T10:02:59 IST" finished-at="2022-11-20T10:02:59 IST">
-      <class name="base.TestCase1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:base.TestCase1@289d1c02]" name="setUp" is-config="true" duration-ms="5" started-at="2022-11-20T10:02:59 IST" finished-at="2022-11-20T10:02:59 IST">
+    <test name="Default test" duration-ms="39" started-at="2022-11-20T10:31:39 IST" finished-at="2022-11-20T10:31:39 IST">
+      <class name="tests.Test5">
+        <test-method status="PASS" signature="t1()[pri:0, instance:tests.Test5@1e7c7811]" name="t1" duration-ms="6" started-at="2022-11-20T10:31:39 IST" finished-at="2022-11-20T10:31:39 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:base.TestCase1@289d1c02]" name="test1" duration-ms="5" started-at="2022-11-20T10:02:59 IST" finished-at="2022-11-20T10:02:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:1, instance:base.TestCase1@289d1c02]" name="test2" duration-ms="1" started-at="2022-11-20T10:02:59 IST" finished-at="2022-11-20T10:02:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:base.TestCase1@289d1c02]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-11-20T10:02:59 IST" finished-at="2022-11-20T10:02:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- base.TestCase1 -->
+        </test-method> <!-- t1 -->
+      </class> <!-- tests.Test5 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
